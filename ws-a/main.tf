@@ -4,7 +4,7 @@ terraform {
 
 locals {
   # Bump to make the next run plan a change.
-  revision = "10"
+  revision = "18"
 }
 
 resource "terraform_data" "this" {
